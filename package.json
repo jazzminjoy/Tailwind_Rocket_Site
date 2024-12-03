@@ -1,0 +1,17 @@
+{
+  "name": "tw_rocket_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+    "prettier": "npx prettier --write ./index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15",
+    "prettier-plugin-tailwindcss": "0.6.9"
+  }
+}
